@@ -1,0 +1,14 @@
+11  #  the number of steps to reach the goal.
+(0, 0)(1, 1)(2, 2)(3, 3)(4, 4)(5, 4)(6, 5)(7, 6)(7, 7)(8, 8)(9, 8)
+#the position of each step in the optimal path.
+#the map with the optimal path.
+S   -   -   -   -   -   o   -   o   -   
+-   x   -   -   -   o   o   o   -   -   
+o   o   x   -   -   -   o   o   o   -   
+-   o   o   x   -   -   -   o   o   o   
+-   o   o   -   x   o   -   o   o   -   
+-   o   -   -   x   o   -   -   o   -   
+-   -   -   -   -   x   -   o   o   o   
+-   o   o   -   -   -   x   x   -   -   
+-   -   -   o   -   -   -   o   x   -   
+-   -   -   o   -   -   -   -   G   -   
